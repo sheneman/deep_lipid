@@ -1,0 +1,2 @@
+bindir:          "../images/binary"
+inputdir:        "./tmp"

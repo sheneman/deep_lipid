@@ -1,0 +1,4 @@
+inputlist:      "./runs/testing_2000.txt"
+rawdir:         "../images/raw"
+model:          "./models/JOB3_models/MLP_classifier.model"
+outputdir:      "./tmp"

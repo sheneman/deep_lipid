@@ -1,0 +1,3 @@
+bindir:             "../images/binary"
+inputdir:           "./classified_images_directory"
+outputdir:          "./output_diff_images_directory"

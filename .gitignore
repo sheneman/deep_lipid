@@ -1,0 +1,16 @@
+__pycache__
+runs/
+venv/
+models/
+debug/
+train/
+images/
+go
+featureimportance.csv
+.*.swp
+*.slurm
+slurm*
+*.out
+*.h5
+.DS_Store
+.*DS_Store

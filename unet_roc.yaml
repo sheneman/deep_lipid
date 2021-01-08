@@ -1,0 +1,3 @@
+bindir:          "../images/binary"
+#inputdir:        "./runs/output2"
+inputdir:        "./runs/unet/complete/classified/unpadded_proba_test"

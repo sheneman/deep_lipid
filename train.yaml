@@ -1,0 +1,14 @@
+rf_model:               "./models/RF_classifier.model"
+xgb_model:              "./models/XGB_classifier.model"
+mlp_model:              "./models/MLP_classifier.model"
+svm_model:              "./models/SVM_classifier.model"
+lda_model:              "./models/LDA_classifier.model"
+threads:                40
+mask:                   0
+rawdir:                 "../images/raw"
+bindir:                 "../images/binary"
+maskdir:                "../images/mask"
+importance:             "./runs/feature_importance.csv"
+trainlist:              "./runs/training_5000.txt"
+testlist:               "./runs/testing_2000.txt"
+k_fold:                 5

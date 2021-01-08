@@ -1,0 +1,2 @@
+rawdir: "./runs/unet/complete/test/unpadded_binary"
+outdir: "./runs/unet/complete/test/padded_binary"

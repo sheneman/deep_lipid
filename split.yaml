@@ -1,0 +1,10 @@
+rawdir:              "/mnt/ceph/sheneman/images/raw"
+bindir:              "/mnt/ceph/sheneman/images/binary"
+train_fraction:      0.05
+validation_fraction: 0.90
+test_fraction:       0.05
+file_filter:         "MTYL_100_1_**.tif"
+#file_filter:         "*"
+trainlist_out:       "./trainlist.txt"
+validationlist_out:  "./validationlist.txt"
+testlist_out:        "./testlist.txt"

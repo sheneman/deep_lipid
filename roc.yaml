@@ -1,0 +1,4 @@
+rawdir:      "../images/raw"
+bindir:      "../images/binary"
+model:       "./models/JOB3_models/RF_classifier.model"
+testlist:    "./runs/testing_2000.txt"

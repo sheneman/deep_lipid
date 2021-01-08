@@ -1,0 +1,3 @@
+rawdir:      "../images/raw8"
+padded:      "./runs/unet/kfold/2/classified/padded"
+unpadded:    "./runs/unet/kfold/2/classified/unpadded"

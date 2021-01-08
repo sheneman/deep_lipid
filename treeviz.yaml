@@ -1,0 +1,2 @@
+model:      "./models/foo.model"
+output:     "./tree.png"
