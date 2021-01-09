@@ -77,4 +77,16 @@ Usage:
   python unet_kfold.py
 
 
+Classification Scripts
+----------------------
 
+### __classify.py__
+
+Loads a saved and trained scikit-learn machine learning model from
+disk and uses that model to classify all raw images within the
+specified directory.
+
+Usage:
+python classify.py [ --help | --verbose | --config=\<YAML config file\> ]
+
+###############################################################################
