@@ -41,7 +41,7 @@ corresponding AUC metrics for all model types.
 Usage:
 python train.py [ --help | --verbose | --config=\<YAML config file\> ]
 
-### __unet.py__
+### **unet.py**
 The primary tool for training a UNet CNN model given a directory of training
 images and a corresonding directory of masks (i.e. "true" binary labels).
 This tool combines a stream of unsigned 8-bit, pre-padded (256x256) training
@@ -60,7 +60,7 @@ The output is a trained model and the model training history.
 Usage:
   python unet.py
 
-### __unet_kfold.py__
+### **unet_kfold.py**
 
 Perform a "manual" k-fold cross validation with the UNet CNN model.  This
 assumes that a directory hierarchy has been configured and populated (see
@@ -80,13 +80,13 @@ Usage:
 Classification Scripts
 ----------------------
 
-### __classify.py__
+### **classify.py**
 
 Loads a saved and trained scikit-learn machine learning model from
 disk and uses that model to classify all raw images within the
 specified directory.
 
 Usage:
-python classify.py [ --help | --verbose | --config=\<YAML config file\> ]
+> python classify.py [ --help | --verbose | --config=\<YAML config file\> ]
 
-###############################################################################
+
