@@ -191,3 +191,45 @@ Usage:
 > python unpad.py [ --help | --verbose | --config=\<YAML config file\> ]
 
 
+### **diff.py**
+
+A simple tool for helping visualize the differences between classified
+binary segmentation maps from our models compared to the binary "true"
+labels.  Takes all of binary images in the input directory, compares
+them (pixel-by-pixel) to the corresponding binary "true" labels.
+Determines the true/false positives/negatives and outputs a color-coded
+RGB image showing the differences.
+
+Usage:
+> python diff.py [ --help | --verbose | --config=\<YAML config file\> ]
+
+
+### **split.py**
+
+*NOTE: This tool is currently deprecated and unused*
+
+A simple tool for helping to create a train/validate/test splits based on
+source directories of files and specified split ratios.
+
+Usage:
+> python split.py [ --help | --verbose | --config=\<YAML config file\> ]
+
+
+### **treeviz.py**
+
+A silly tool for taking a single trained decision tree from a random forest
+model and visualizing it using the GraphViz library.
+
+Usage:
+> python treeviz.py [ --help | --verbose | --config=\<YAML config file\> ]
+
+
+### **unet_kfold_prepare.py** 
+
+This is an auxillary tool to prepare a directory hierarchy populated with
+raw and binary training images for use in doing a "manual" k-fold cross
+validation of Keras/TensorFlow models.
+
+Usage:
+> python unet_kfold_prepare.py
+
