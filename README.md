@@ -38,6 +38,9 @@ split model training run using the specified training and test sets.  It
 will use the results of that operation to compute ROC Curves and the
 corresponding AUC metrics for all model types.
 
+Usage:
+python train.py [ --help | --verbose | --config=\<YAML config file\> ]
+
 ### __unet.py__
 The primary tool for training a UNet CNN model given a directory of training
 images and a corresonding directory of masks (i.e. "true" binary labels).
@@ -53,6 +56,9 @@ The binary masks must also be padded to a consistent 256x256 size.
 Most of the training parameters (Epochs, Batch size, etc.) are hardcoded.
 
 The output is a trained model and the model training history.
+
+Usage:
+  python unet.py
 
 ### __unet_kfold.py__
 
