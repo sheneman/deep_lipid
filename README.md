@@ -39,7 +39,7 @@ will use the results of that operation to compute ROC Curves and the
 corresponding AUC metrics for all model types.
 
 Usage:
-python train.py [ --help | --verbose | --config=\<YAML config file\> ]
+> python train.py [ --help | --verbose | --config=\<YAML config file\> ]
 
 ### **unet.py**
 The primary tool for training a UNet CNN model given a directory of training
@@ -58,7 +58,7 @@ Most of the training parameters (Epochs, Batch size, etc.) are hardcoded.
 The output is a trained model and the model training history.
 
 Usage:
-  python unet.py
+> python unet.py
 
 ### **unet_kfold.py**
 
@@ -74,7 +74,7 @@ scored against the "true" binary labels using various # model
 effectiveness metrics (score.py).
 
 Usage:
-  python unet_kfold.py
+> python unet_kfold.py
 
 
 Classification Scripts
@@ -89,4 +89,20 @@ specified directory.
 Usage:
 > python classify.py [ --help | --verbose | --config=\<YAML config file\> ]
 
+
+### **unet_classify.py**
+
+This tool will load a trained and saved Keras/TensorFlow model from disk and
+stream a set of raw unsigned 8-bit, pre-padded (256x256), images through the
+UNET classifier in order to generate a set of binary semantic segmentation
+maps for each image.  It will save the resulting binary output images to disk
+in the specified output folder.   Paths and filenames are hardcoded below
+(for now).
+
+Initial 32-bit float raw images must be initially preprocessed:
+  - Scaled to normalized 8-bit unsigned representation
+  - Padded to be 256x256 (see pad.py)
+
+Usage:
+> python unet_classify.py
 
