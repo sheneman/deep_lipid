@@ -6,10 +6,10 @@ Deep learning semantic segmentation of lipid droplets from quantitative phase im
 
 This software is associated with a manuscript currently under peer review.
 
-A bioRxiv preprint of this paper is available:
+This published paper is available via PLOS ONE:
 Deep learning classification of lipid droplets in quantitative phase images
 L. Sheneman, G. Stephanopoulos, A. E. Vasdekis
-bioRxiv 2020.06.01.128447; doi: https://doi.org/10.1101/2020.06.01.128447
+https://doi.org/10.1371/journal.pone.0249196
 
 
 The related data:  https://doi.org/10.7923/3d0d-yb04
