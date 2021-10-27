@@ -6,8 +6,7 @@ Deep learning semantic segmentation of lipid droplets from quantitative phase im
 
 This software is associated with a published PLOS ONE journal article:
 
-Deep learning classification of lipid droplets in quantitative phase images
-L. Sheneman, G. Stephanopoulos, A. E. Vasdekis;   https://doi.org/10.1371/journal.pone.0249196
+Sheneman L, Stephanopoulos G, Vasdekis AE (2021) Deep learning classification of lipid droplets in quantitative phase images. PLOS ONE 16(4): e0249196. https://doi.org/10.1371/journal.pone.0249196
 
 
 The related data:  https://doi.org/10.7923/3d0d-yb04
