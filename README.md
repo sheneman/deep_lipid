@@ -4,11 +4,11 @@ Deep Lipid
 Deep learning semantic segmentation of lipid droplets from quantitative phase images (QPI)
 ---------------------------------------------------------------------------------------------------------------
 
-This software is associated with a manuscript currently under peer review.
+This software is associated with a published PLOS ONE journal article:
 
-This published paper is available via PLOS ONE:
 Deep learning classification of lipid droplets in quantitative phase images
 L. Sheneman, G. Stephanopoulos, A. E. Vasdekis
+
 https://doi.org/10.1371/journal.pone.0249196
 
 
